@@ -474,6 +474,7 @@ $(document).ready(function(){
 	}
 	if (!empty($errormsg)) print_error_box($errormsg);
 ?>
+<?php echo "<h1>Salut SonarQube</h1>"; ?>
 <table id="area_data"><tbody><tr><td id="area_data_frame">
 	<table class="area_data_settings">
 		<colgroup>
